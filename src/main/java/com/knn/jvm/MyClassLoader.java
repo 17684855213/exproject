@@ -86,8 +86,8 @@ public class MyClassLoader extends ClassLoader {
                 }
 
                 // this is the defining class loader; record the stats
-                sun.misc.PerfCounter.getFindClassTime().addElapsedTimeFrom(t1);
-                sun.misc.PerfCounter.getFindClasses().increment();
+//                sun.misc.PerfCounter.getFindClassTime().addElapsedTimeFrom(t1);
+//                sun.misc.PerfCounter.getFindClasses().increment();
             }
             if (resolve) {
                 resolveClass(c);
